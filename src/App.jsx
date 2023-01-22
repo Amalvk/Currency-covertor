@@ -26,7 +26,6 @@ function App() {
         .then((response) => response.json())
         .then((data) => {
           baseCurrencyValue = data.data;
-          console.log(uploadedDocuments);
           uploadedDocuments.forEach(element => {
             let newData = element.rows.map((item => (
               {
