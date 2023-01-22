@@ -1,0 +1,34 @@
+.header-blue {
+    color: #00afef;
+}
+p {
+    color: #ffffff;
+}
+.csv-reader-input {
+    border: solid yellow;
+    border-radius: 8px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.button-container {
+    width: 100%;
+    max-width: 500px;
+}
+.uploaded-files{
+    display: flex;
+    min-height: 300px;
+    flex-direction: column;
+    border: solid #355da5;
+    border-radius: 8px;
+}
+.files-container {
+    width: 100%;
+    max-width: 500px;
+}
+.supported{
+    overflow-wrap: break-word;
+    font-size: 0.7rem;
+}
